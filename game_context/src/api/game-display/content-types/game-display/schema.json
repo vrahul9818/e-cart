@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_displays",
+  "info": {
+    "singularName": "game-display",
+    "pluralName": "game-displays",
+    "displayName": "game-display",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "game_name": {
+      "type": "string"
+    },
+    "game_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
